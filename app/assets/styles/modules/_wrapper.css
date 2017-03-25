@@ -2,6 +2,7 @@
     overflow: hidden;
     max-width: 1236px;
     margin: 0 auto;
+    padding: 0 18px;
 
     &--no-padding-until-medium {
         padding-left: 0;
