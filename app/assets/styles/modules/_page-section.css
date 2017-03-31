@@ -32,7 +32,7 @@
     @mixin atLarge {
       /*Only apply the background when the element also has a class of lazyloaded */
       &.lazyloaded {
-        background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+        background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
         background-size: cover;
       }
     }
