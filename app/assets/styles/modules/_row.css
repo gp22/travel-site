@@ -93,7 +93,9 @@
   }
 
   /* Begin equal height rules */
-  &--equal-height-at-medium {
+  /*Add support for modernizr with .flexbox class, that way this rule will only
+  be applied in browsers that support flexbox*/
+  .flexbox &--equal-height-at-medium {
     @mixin atMedium {
       display: flex;
     }
@@ -103,8 +105,9 @@
       display: flex;
     }
   }
-
-  &--equal-height-at-large {
+    /*Add support for modernizr with .flexbox class, that way this rule will only
+    be applied in browsers that support flexbox*/
+  .flexbox &--equal-height-at-large {
     @mixin atLarge {
       display: flex;
     }
